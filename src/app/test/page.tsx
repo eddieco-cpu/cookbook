@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Avocado, Carrot, Rice, Garlic, Beans, HoneyCake, Melon } from "@/components/icons";
 
 export default function page() {
 	return (
@@ -21,7 +22,16 @@ export default function page() {
 			<div className="bg-background dark:bg-background-dark text-text dark:text-text-dark">
 				這是一個測試區塊
 			</div>
-
+			<div className="bg-background dark:bg-background-dark text-text dark:text-text-dark">
+				< Avocado />
+				< Carrot />
+				< Rice />
+				< Garlic />
+				< Beans />
+				< HoneyCake />
+				< Melon />
+				
+			</div>
 		</div>
 	);
 }

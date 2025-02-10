@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Logo() {
+export function Logo({ className }: { className?: string }) {
   return (
     <svg
       width="406"
@@ -8,6 +8,7 @@ export function Logo() {
       viewBox="0 0 406 64"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className={className || ""}
     >
       <g clipPath="url(#clip0_1188_37852)">
         <path
